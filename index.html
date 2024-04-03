@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Area of a Trapezoid"" />
+    <meta name="keywords" content="immaculata, ics2o" />
+    <meta name="author" content="Niko" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Area of a Trapazoid</title>
   </head>
   <body>
-    <p>Paragraph</p>
+    <!-- references javascript file -->
+    <script src="./js/script.js"></script>
+    <h1>Area of a Trapazoid</h1>
+    <h3>Please enter the following:</h3>
+    <p>
+      <!-- creates text field for users to input information about their street which will be stored and used to present their full address once the button is clicked -->
+      <form action="javascript:calculateArea ()">
+        <label for="sidea">Side A: </label>
+        <input type="number" step=".01" id="sidea" placeholder="Side A (cm)" /><br><br>
+        <label for="sideb">Side B: </label>
+        <input type="number" step=".01" id="sideb" placeholder="Side B (cm)" /><br><br>
+        <label for="height">Height, h: </label>
+        <input type="number" step=".01" id="height" placeholder="Height (cm)" /><br><br>
+        <input type="submit" value="Calculate Area">
+      </form>
+    </p>
+		<!-- Create a space where the user information will be displayed -->
+    <div id="user-info"></div>
+ 
+    <br>
+    <img src="./images/download.jpg" alt="rimce" height="600px" width="400px"" >
   </body>
 </html>
