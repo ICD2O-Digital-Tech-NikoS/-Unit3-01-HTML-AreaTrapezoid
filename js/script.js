@@ -1,5 +1,5 @@
 // Created by: Niko
-// Created on: march 2022
+// Created on: april 2024
 // This file contains the JS functions for index.html
 
 
